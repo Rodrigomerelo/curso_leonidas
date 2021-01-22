@@ -1,0 +1,23 @@
+/* CSS funciona con 3 cosos: Selectores, Propiedades y Valores*/
+/* Los selectores definen sobre que elementos se aplicará un conjunto de reglas en CSS */
+/* Selector global "*" le da estilo a todo el documento */
+/* Selector de etiqueta ejemplo "h1" solo afecara a las etiquetas de este tipo en especifico*/
+/* Selector de clase "." Se pueden repetir y un elemento puede tener más de una clase*/
+/* Selector de ID "#" Solo es para un elemento en especifico, no se pueden repetir los ID */
+/* Selector de atributo "[]" Este se utiliza para todos los elementos que tengan el atributo y su valor ejemplo [id='title'] */
+/* Selector de grupo N cantidad de selectores se pueden configurar con las mismas propiedades ejemplo #title, .sub-title { } */
+/* Selector descendente (Usar este) elijes una etiqueta y sobre esa las clases que se quieren modificar ejemplo nav .h2 { } */
+/* Selector Hijo directo se usa con una etiqueta seguida del simbolo ">" y la clase a la que se hara la modificación. Esto solo funcionará en la primera vez que se cumplan con los parametros establecidos ejemplo body > .title {}*/
+/* Pseudoclases: representan estados de un elemento (ejemplo hover)*/
+/* Pseudoelementos: crean elementos especiales (ejemplo after) */
+/* el selector !important le da una supermegacategoría que hace que se priorice este estilo sobre los demas elementos */
+
+ h3 {
+   color: red;
+ }
+ .subsubtitle {
+   color:seagreen;
+ }
+ #VSC {
+   color: slateblue ;
+ }
